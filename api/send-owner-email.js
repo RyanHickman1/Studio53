@@ -43,7 +43,7 @@ export default async function handler(req, res) {
 
     const result = await resend.emails.send({
       from: "Francesca <send@francescaassistant.com>",
-      to: "lukasbynum@callfrancesca.com",
+      to: "info@studio53huntsville.com",
       subject: `📞 New Call – ${intent}`,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #111;">
